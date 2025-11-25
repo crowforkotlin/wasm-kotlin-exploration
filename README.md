@@ -10,6 +10,7 @@
 
 # wasm-micro-runtime
 > The description claims multi-platform support, but there is no Java sample. Might it require kn?
+> Kotlin Wasm adopts new official WebAssembly proposals, such as WasmGC. Since most mainstream libraries do not support these yet, errors like 'invalid section id' or 'invalid byte: 0x5e != 0x60' are thrown when loading the Wasm file.
 - [wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime)
 
 # wasm3
