@@ -7,6 +7,10 @@
 - [wasmer](https://github.com/wasmerio/wasmer)
 - [wasmer-java](https://github.com/wasmerio/wasmer-java)
 
+# ❌ wazero
+> wazero does not support some new features and, like most other mainstream WASM runners, suffers from the same problem: read 0-th type: invalid byte: 0x5e != 0x60 (gc not support)
+- [wazero](https://github.com/wazero/wazero)
+
 # ❌ wasmedge 
 > The compilation process is overly complex. Android support seems to have a demo, but after trying multi-platform compilation, I encountered problems on Windows that I feel are quite tricky to resolve.
 - [wasmedge android bug](https://github.com/issues/created?issue=WasmEdge%7CWasmEdge%7C4426)
